@@ -1,1 +1,3 @@
-worker : python3 -m tobrot
+build:
+  docker:
+    worker: Dockerfile
